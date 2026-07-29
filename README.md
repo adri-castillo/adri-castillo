@@ -42,7 +42,7 @@
 <table width="90%" style="border-collapse: separate; border-spacing: 0; border: 1px solid #30363d; border-radius: 10px; background-color: #0d1117;">  
   <!-- Barra de título estilo ventana macOS -->
   <tr style="background-color: #161b22; border-bottom: 1px solid #30363d;">
-    <td style="padding: 10px 14px;">
+    <td style="padding: 10px 14px; border-bottom: 1px solid #30363d; border-top-left-radius: 10px; border-top-right-radius: 10px;">
       <span style="color: #FF5F56; font-size: 14px;">●</span>
       <span style="color: #FFBD2E; font-size: 14px;">●</span>
       <span style="color: #27C93F; font-size: 14px;">●</span>
@@ -55,7 +55,7 @@
 
   <!-- Interior de la terminal: prompt de zsh + JSON sintáctico -->
   <tr>
-    <td style="padding: 16px 18px;" align="left">
+    <td style="padding: 16px 18px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;" align="left">
 
 <p style="margin: 0 0 8px 0; font-family: monospace; font-size: 13px; color: #79c0ff;">dev@macbook-pro <span style="color: #d2a8ff;">~ %</span> <span style="color: #c9d1d9;"> &nbsp cat profile.json</span></p>
 
@@ -119,7 +119,10 @@
 <br />
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=adri-castillo&layout=compact&theme=tokyonight&hide_border=true&hide=html,css" width="40%" alt="Top Languages" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=adri-castillo&layout=compact&theme=tokyonight&hide_border=true&hide=html,css" style="max-width: 100%;" width="50%" alt="Top Languages" />
 </p>
 
 </div>
+
+
+
