@@ -34,7 +34,7 @@
   <br />
 
   <!-- Animación SVG de consola escribiendo comandos -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&pause=1000&color=38BDF8&center=true&vCenter=true&width=500&lines=node+server.js;spark-submit+process_data.py;python3+train_model.py;ng+build+--configuration+production" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1500&emptyDuration=100&color=7DF527&center=true&vCenter=true&width=600&lines=console.log(%22Hello%2C+World!%22)%3B;echo+%22Software+%26+Data+Engineer%22;git+commit+-m+%22feat%3A+ship+to+prod%22;ng+build+--configuration+production;python3+-m+pytest+tests%2F;spark-submit+--master+yarn+etl.py;docker-compose+up+-d+airflow" alt="Typing SVG" />
 
   <br />
 
