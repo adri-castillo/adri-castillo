@@ -1,4 +1,14 @@
 <svg fill="none" width="100%" viewBox="0 0 920 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- MÁSCARAS DE CORTE PARA EL EFECTO DE ESCRITURA -->
+    <clipPath id="clip1"><rect class="clip1" x="244" y="555" width="0" height="35" /></clipPath>
+    <clipPath id="clip2"><rect class="clip2" x="244" y="555" width="0" height="35" /></clipPath>
+    <clipPath id="clip3"><rect class="clip3" x="244" y="555" width="0" height="35" /></clipPath>
+    <clipPath id="clip4"><rect class="clip4" x="244" y="555" width="0" height="35" /></clipPath>
+    <clipPath id="clip5"><rect class="clip5" x="244" y="555" width="0" height="35" /></clipPath>
+    <clipPath id="clip6"><rect class="clip6" x="244" y="555" width="0" height="35" /></clipPath>
+  </defs>
+
   <style>
     .header-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 500; fill: #8b949e; }
     .term-text { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; font-size: 18px; }
@@ -7,6 +17,41 @@
     .white { fill: #c9d1d9; }
     .key { fill: #7ee787; }
     .string { fill: #a5d6ff; }
+    .cursor { fill: #79c0ff; animation: blink 0.8s infinite; }
+
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+
+    /* Visibilidad de los comandos (Ciclo total de 18s) */
+    .cmd1 { animation: anim1 18s infinite; }
+    .cmd2 { animation: anim2 18s infinite; }
+    .cmd3 { animation: anim3 18s infinite; }
+    .cmd4 { animation: anim4 18s infinite; }
+    .cmd5 { animation: anim5 18s infinite; }
+    .cmd6 { animation: anim6 18s infinite; }
+
+    /* Animación de apertura horizontal (Efecto tipeado) */
+    .clip1 { animation: cwidth1 18s infinite linear; }
+    .clip2 { animation: cwidth2 18s infinite linear; }
+    .clip3 { animation: cwidth3 18s infinite linear; }
+    .clip4 { animation: cwidth4 18s infinite linear; }
+    .clip5 { animation: cwidth5 18s infinite linear; }
+    .clip6 { animation: cwidth6 18s infinite linear; }
+
+    /* Keyframes de Opacidad */
+    @keyframes anim1 { 0% { opacity:1; } 15.5% { opacity:1; } 16% { opacity:0; } 100% { opacity:0; } }
+    @keyframes anim2 { 0%, 16.5% { opacity:0; } 16.66% { opacity:1; } 32.2% { opacity:1; } 32.8% { opacity:0; } 100% { opacity:0; } }
+    @keyframes anim3 { 0%, 33.2% { opacity:0; } 33.33% { opacity:1; } 48.8% { opacity:1; } 49.4% { opacity:0; } 100% { opacity:0; } }
+    @keyframes anim4 { 0%, 49.8% { opacity:0; } 50.00% { opacity:1; } 65.5% { opacity:1; } 66.1% { opacity:0; } 100% { opacity:0; } }
+    @keyframes anim5 { 0%, 66.5% { opacity:0; } 66.66% { opacity:1; } 82.2% { opacity:1; } 82.8% { opacity:0; } 100% { opacity:0; } }
+    @keyframes anim6 { 0%, 83.2% { opacity:0; } 83.33% { opacity:1; } 98.8% { opacity:1; } 99.4% { opacity:0; } 100% { opacity:0; } }
+
+    /* Keyframes de Ancho de Escritura */
+    @keyframes cwidth1 { 0% { width: 0; } 1.5% { width: 0; } 10% { width: 250px; } 100% { width: 250px; } }
+    @keyframes cwidth2 { 0%, 16.66% { width: 0; } 18.16% { width: 0; } 26.66% { width: 450px; } 100% { width: 450px; } }
+    @keyframes cwidth3 { 0%, 33.33% { width: 0; } 34.83% { width: 0; } 43.33% { width: 500px; } 100% { width: 500px; } }
+    @keyframes cwidth4 { 0%, 50.00% { width: 0; } 51.50% { width: 0; } 60.00% { width: 380px; } 100% { width: 380px; } }
+    @keyframes cwidth5 { 0%, 66.66% { width: 0; } 68.16% { width: 0; } 76.66% { width: 480px; } 100% { width: 480px; } }
+    @keyframes cwidth6 { 0%, 83.33% { width: 0; } 84.83% { width: 0; } 93.33% { width: 420px; } 100% { width: 420px; } }
   </style>
 
   <!-- Fondo de la ventana -->
@@ -39,7 +84,7 @@
     <tspan class="white"> cat profile.json</tspan>
   </text>
 
-  <!-- JSON con resaltado de sintaxis (18px) -->
+  <!-- JSON con resaltado de sintaxis -->
   <text x="22" y="124" class="term-text white">{</text>
   <text x="42" y="154" class="term-text"><tspan class="key">"developer"</tspan><tspan class="white">: </tspan><tspan class="string">"Adriana Castillo"</tspan><tspan class="white">,</tspan></text>
   <text x="42" y="184" class="term-text"><tspan class="key">"bio"</tspan><tspan class="white">: </tspan><tspan class="string">"Building robust web platforms &amp; distributed data pipelines"</tspan><tspan class="white">,</tspan></text>
@@ -56,14 +101,31 @@
   <text x="42" y="514" class="term-text"><tspan class="key">"spoken_languages"</tspan><tspan class="white">: [</tspan><tspan class="string">"Spanish (Native)"</tspan><tspan class="white">, </tspan><tspan class="string">"English (Technical)"</tspan><tspan class="white">]</tspan></text>
   <text x="22" y="544" class="term-text white">}</text>
 
-  <!-- Prompt 2 (Línea estática inferior en y=584) -->
+  <!-- Prompt 2 (Inferior) -->
   <text x="22" y="584" class="term-text">
     <tspan class="cyan">dev@macbook-pro</tspan>
     <tspan class="purple"> ~ %</tspan>
   </text>
 
-  <!-- Animación alineada en x=244 -->
-  <image x="244" y="562" width="620" height="34" href="https://readme-typing-svg.demolab.com?font=Roboto+Mono&amp;weight=400&amp;size=18&amp;pause=1500&amp;emptyDuration=100&amp;color=FFFFFF&amp;center=false&amp;vCenter=true&amp;width=620&amp;height=34&amp;lines=echo+%22Hello%2C+World!%22;git+commit+-m+%22feat%3A+ship+to+prod%22;ng+build+--configuration+production;python3+-m+pytest+tests%2F;spark-submit+--master+yarn+etl.py;docker-compose+up+-d+airflow" />
+  <!-- COMANDOS DINÁMICOS ANIMADOS EN CSS PURO -->
+  <g class="cmd1" clip-path="url(#clip1)">
+    <text x="244" y="584" class="term-text white">echo "Hello, World!"<tspan class="cursor"> ▋</tspan></text>
+  </g>
+  <g class="cmd2" clip-path="url(#clip2)">
+    <text x="244" y="584" class="term-text white">git commit -m "feat: ship to prod"<tspan class="cursor"> ▋</tspan></text>
+  </g>
+  <g class="cmd3" clip-path="url(#clip3)">
+    <text x="244" y="584" class="term-text white">ng build --configuration production<tspan class="cursor"> ▋</tspan></text>
+  </g>
+  <g class="cmd4" clip-path="url(#clip4)">
+    <text x="244" y="584" class="term-text white">python3 -m pytest tests/<tspan class="cursor"> ▋</tspan></text>
+  </g>
+  <g class="cmd5" clip-path="url(#clip5)">
+    <text x="244" y="584" class="term-text white">spark-submit --master yarn etl.py<tspan class="cursor"> ▋</tspan></text>
+  </g>
+  <g class="cmd6" clip-path="url(#clip6)">
+    <text x="244" y="584" class="term-text white">docker-compose up -d airflow<tspan class="cursor"> ▋</tspan></text>
+  </g>
 
   <!-- Borde exterior de la ventana -->
   <rect width="920" height="630" rx="10" fill="none" stroke="#30363d" stroke-width="1" />
