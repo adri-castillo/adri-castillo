@@ -157,7 +157,7 @@
 <br />
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=adri-castillo&layout=compact&theme=tokyonight&hide_border=true&hide=html,css" style="max-width: 100%;" width="73%" alt="Top Languages" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=adri-castillo&layout=compact&theme=tokyonight&hide_border=true&hide=html,css" style="max-width: 100%;" width="75%" alt="Top Languages" />
 </p>
 
 </div>
