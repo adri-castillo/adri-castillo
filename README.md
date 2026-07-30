@@ -5,7 +5,7 @@
 <div align="center">
 
   <!-- Banner de fondo -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=181F2B&height=130&section=header&animation=fadeIn" width="100%" alt="Header Background" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=181F2B&height=145&section=header&animation=fadeIn" width="100%" alt="Header Background" />
   
   <br />
 
@@ -72,13 +72,18 @@
 ```json
 {
   "developer": "Adriana Castillo",
-  "specialization": "Full Stack Development & Data Engineering",
-  "core_stack": {
-    "software": ["Node.js", "Angular", "TypeScript", "REST APIs"],
-    "data_and_ai": ["Python", "Apache Spark", "Hadoop", "TensorFlow", "ETLs"],
-    "databases": ["PostgreSQL", "MongoDB", "SQL Server"]
-  },
-  "status": "Building scalable products & data architectures"
+  "bio": "Building robust web platforms & distributed data pipelines",
+  "current_focus": [
+    "Scalable ETL Architectures",
+    "Real-time Data Processing",
+    "Integrated Full Stack Solutions"
+  ],
+  "engineering_principles": [
+    "Clean Code & Maintainability",
+    "Data Integrity & Efficiency",
+    "Performance Optimization"
+  ],
+  "spoken_languages": ["Spanish (Native)", "English (Technical)"]
 }
 ```
 
@@ -92,7 +97,6 @@
 </div>
 
 <br />
-
 
 <!-- ======================================================= -->
 <!-- SECCIÓN 3: TECH STACK & CAPABILITIES                    -->
