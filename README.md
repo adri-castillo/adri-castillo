@@ -4,17 +4,23 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=181F2B&height=195&section=header&text=Adriana%20Castillo&fontSize=32&fontColor=FFFFFF&animation=fadeIn" width="100%" alt="Header Waving" />
-
-  <!-- Título principal con ícono de LinkedIn alineado a la derecha -->
-  <h2 style="margin-top: 5px;">
-    <strong>Software Engineer & Data Engineer</strong>&nbsp;&nbsp;&nbsp;
-    <a href="https://linkedin.com/in/adriana-castillo-c" target="_blank">
-      <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" height="25" style="vertical-align: middle;" alt="LinkedIn" />
-    </a>
-  </h2>
-
+  <!-- Banner de fondo -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=181F2B&height=130&section=header&animation=fadeIn" width="100%" alt="Header Background" />
+  
   <br />
+
+  <!-- Nombre principal sin línea divisoria (usando h3 estilizado) -->
+  <h3 style="font-size: 2.2em; font-weight: 700; margin-top: 10px; margin-bottom: 5px; border: none; padding-bottom: 0;">
+    Adriana Castillo
+  </h3>
+
+  <!-- Rol + LinkedIn sin línea divisoria (usando h3 estilizado) -->
+  <h3 style="font-size: 1.3em; font-weight: 500; margin-top: 5px; margin-bottom: 15px; border: none; padding-bottom: 0;">
+    Software Engineer & Data Engineer &nbsp;&nbsp;
+    <a href="https://linkedin.com/in/adriana-castillo-c" target="_blank">
+      <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" height="24" style="vertical-align: middle;" alt="LinkedIn" />
+    </a>
+  </h3>
 
   <!-- Badges de Tecnologías Principales -->
   <p align="center">
@@ -26,7 +32,8 @@
     <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   </p>
   <br />
-    <!-- Animación SVG de consola escribiendo comandos -->
+
+  <!-- Animación SVG de consola escribiendo comandos -->
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&pause=1000&color=38BDF8&center=true&vCenter=true&width=500&lines=node+server.js;spark-submit+process_data.py;python3+train_model.py;ng+build+--configuration+production" alt="Typing SVG" />
 
   <br />
@@ -146,7 +153,7 @@
 <br />
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=adri-castillo&layout=compact&theme=tokyonight&hide_border=true&hide=html,css" style="max-width: 100%;" width="50%" alt="Top Languages" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=adri-castillo&layout=compact&theme=tokyonight&hide_border=true&hide=html,css" style="max-width: 100%;" width="73%" alt="Top Languages" />
 </p>
 
 </div>
