@@ -46,18 +46,8 @@
 
 
 <p align="center">
-  <!-- <img src="terminal.svg" alt="Terminal" width="73%"> -->
-
-<picture>
-  <!-- En pantallas pequeñas (móviles) carga el SVG al 100% -->
-  <source media="(max-width: 767px)" srcset="terminal.svg">
-  
-  <!-- En escritorio limita el contenedor al 73% -->
-  <img src="terminal.svg" alt="Terminal" width="73%">
-</picture>
-  
+ <img src="terminal.svg" alt="Terminal" width="86%"> 
 </p>
-
 
 
 <br />
@@ -65,7 +55,6 @@
 <!-- ======================================================= -->
 <!-- SECCIÓN 3: TECH STACK & CAPABILITIES                    -->
 <!-- ======================================================= -->
-
 
 <div align="center">
 
@@ -87,11 +76,11 @@
     </tr>
     <tr>
       <td style="padding: 12px 14px; border-bottom: 1px solid #21262d; border-right: 1px solid #30363d;"><strong>Data Engineering & Big Data</strong></td>
-      <td style="padding: 12px 14px; border-bottom: 1px solid #21262d;"><code>Python</code> <code>Apache Spark</code> <code>Hadoop</code> <code>Apache NiFi</code> <code>Pandas</code> <code>ETLs</code></td>
+      <td style="padding: 12px 14px; border-bottom: 1px solid #21262d;"><code>Python</code> <code>Apache Spark</code> <code>Hadoop (HDFS)</code> <code>Apache NiFi</code> <code>Pandas</code> <code>ETL Pipelines</code></td>
     </tr>
     <tr>
       <td style="padding: 12px 14px; border-bottom: 1px solid #21262d; border-right: 1px solid #30363d;"><strong>AI & Data Science</strong></td>
-      <td style="padding: 12px 14px; border-bottom: 1px solid #21262d;"><code>TensorFlow</code> <code>Deep Learning </code> <code>Scikit-learn</code> <code>Web Scraping</code> </td>
+      <td style="padding: 12px 14px; border-bottom: 1px solid #21262d;"><code>TensorFlow</code> <code>Deep Learning (LSTM)</code> <code>Scikit-learn</code> <code>Web Scraping</code>  <code>Jupyter</code></td>
     </tr>
     <tr>
       <td style="padding: 12px 14px; border-bottom: 1px solid #21262d; border-right: 1px solid #30363d;"><strong>Databases & Storage</strong></td>
@@ -121,7 +110,7 @@
 <br />
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=adri-castillo&layout=compact&theme=tokyonight&hide_border=true&hide=html,css" style="max-width: 100%;" width="74%" alt="Top Languages" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=adri-castillo&layout=compact&theme=tokyonight&hide_border=true&hide=html,css" style="max-width: 100%;" width="85%" alt="Top Languages" />
 </p>
 
 </div>
