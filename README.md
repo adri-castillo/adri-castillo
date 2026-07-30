@@ -54,17 +54,18 @@
 <!-- ======================================================= -->
 
 ### Tech Stack & Capabilities
-
 <br />
 
-* **Full Stack Software:** `Node.js`  `Angular`  `TypeScript`  `RESTful APIs`  `HTML5/SCSS`
-* **Data Engineering & Big Data:** `Python`  `Apache Spark`  `Hadoop (HDFS)`  `Apache NiFi`  `Pandas`  `ETL Pipelines`
-* **AI & Data Science:** `TensorFlow`  `Deep Learning (LSTM)`  `Scikit-learn`  `Web Scraping`  `Jupyter`
-* **Databases & Storage:** `PostgreSQL`  `MongoDB`  `SQL Server`  `MySQL`
-* **DevOps & Tools:** `Docker`  `Git`  `Linux / Bash`  `Postman`
-
+```Ini, TOML
+[INFO] Loading developer profile: adri-castillo
+  [✔] Full Stack    -> Node.js  |  Angular  |  TypeScript  |  RESTful APIs  |  HTML5/SCSS
+  [✔] Data Eng      -> Python  |  Apache Spark  |  Hadoop (HDFS)  |  Apache NiFi  |  Pandas
+  [✔] AI & DS       -> TensorFlow  |  Deep Learning (LSTM)  |  Scikit-learn  |  Web Scraping
+  [✔] Databases     -> PostgreSQL  |  MongoDB  |  SQL Server  |  MySQL
+  [✔] DevOps        -> Docker  |  Git  |  Linux / Bash  |  Postman
+[READY] System operational.
+```
 <br />
-
 <!-- ======================================================= -->
 <!-- SECCIÓN 4:  GITHUB STATS                                -->
 <!-- ======================================================= -->
