@@ -5,22 +5,24 @@
 <div align="center">
 
   <!-- Banner de fondo -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=181F2B&height=145&section=header&animation=fadeIn" width="100%" alt="Header Background" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=181F2B&height=155&section=header&animation=fadeIn" width="100%" alt="Header Background" />
   
   <br />
 
-  <!-- Nombre principal sin línea divisoria (usando h3 estilizado) -->
+  <!-- Nombre principal sin línea divisoria -->
+  <!--
   <h3 style="font-size: 2.2em; font-weight: 700; margin-top: 10px; margin-bottom: 5px; border: none; padding-bottom: 0;">
     Adriana Castillo
   </h3>
-
-  <!-- Rol + LinkedIn sin línea divisoria (usando h3 estilizado) -->
-  <h3 style="font-size: 1.3em; font-weight: 500; margin-top: 5px; margin-bottom: 15px; border: none; padding-bottom: 0;">
+  -->
+  
+  <!-- Rol + LinkedIn sin línea divisoria -->
+  <h1 style="font-size: 1.3em; font-weight: 500; margin-top: 0px; margin-bottom: 15px; border: none; padding-bottom: 0;">
     Software Engineer & Data Engineer &nbsp;&nbsp;
     <a href="https://linkedin.com/in/adriana-castillo-c" target="_blank">
       <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" height="24" style="vertical-align: middle;" alt="LinkedIn" />
     </a>
-  </h3>
+  </h1>
 
   <!-- Badges de Tecnologías Principales -->
   <p align="center">
@@ -33,22 +35,17 @@
   </p>
   <br />
 
-  <br />
-
 </div>
 
 <br />
-
 
 <!-- ======================================================= -->
 <!-- SECCIÓN 2: TERMINAL MACOS (PROFILE JSON COLOREADO)      -->
 <!-- ======================================================= -->
 
-
 <p align="center">
- <img src="assets/terminal.svg" alt="Terminal" width="89%"> 
+ <img src="assets/terminal.svg" alt="Terminal" width="100%"> 
 </p>
-
 
 <br />
 
@@ -56,61 +53,26 @@
 <!-- SECCIÓN 3: TECH STACK & CAPABILITIES                    -->
 <!-- ======================================================= -->
 
-<div align="center">
-
 ### Tech Stack & Capabilities
 
 <br />
 
-<table width="90%" style="border-collapse: separate; border-spacing: 0; border: 1px solid #30363d; border-radius: 10px; background-color: #0d1117;">
-  <thead>
-    <tr style="background-color: #161b22;">
-      <th align="left" style="padding: 12px 14px; border-bottom: 1px solid #30363d; border-top-left-radius: 10px; color: #8b949e; font-family: sans-serif; font-size: 13px; font-weight: 600; width: 30%;">AREA</th>
-      <th align="left" style="padding: 12px 14px; border-bottom: 1px solid #30363d; border-top-right-radius: 10px; color: #8b949e; font-family: sans-serif; font-size: 13px; font-weight: 600;">TECHNOLOGIES & ECOSYSTEM</th>
-    </tr>
-  </thead>
-  <tbody style="font-size: 13px; color: #c9d1d9;">
-    <tr>
-      <td style="padding: 12px 14px; border-bottom: 1px solid #21262d; border-right: 1px solid #30363d;"><strong>Full Stack Software</strong></td>
-      <td style="padding: 12px 14px; border-bottom: 1px solid #21262d;"><code>Node.js</code> <code>Angular</code> <code>TypeScript</code> <code>RESTful APIs</code> <code>HTML5/SCSS</code></td>
-    </tr>
-    <tr>
-      <td style="padding: 12px 14px; border-bottom: 1px solid #21262d; border-right: 1px solid #30363d;"><strong>Data Engineering & Big Data</strong></td>
-      <td style="padding: 12px 14px; border-bottom: 1px solid #21262d;"><code>Python</code> <code>Apache Spark</code> <code>Hadoop (HDFS)</code> <code>Apache NiFi</code> <code>Pandas</code> <code>ETL Pipelines</code></td>
-    </tr>
-    <tr>
-      <td style="padding: 12px 14px; border-bottom: 1px solid #21262d; border-right: 1px solid #30363d;"><strong>AI & Data Science</strong></td>
-      <td style="padding: 12px 14px; border-bottom: 1px solid #21262d;"><code>TensorFlow</code> <code>Deep Learning (LSTM)</code> <code>Scikit-learn</code> <code>Web Scraping</code>  <code>Jupyter</code></td>
-    </tr>
-    <tr>
-      <td style="padding: 12px 14px; border-bottom: 1px solid #21262d; border-right: 1px solid #30363d;"><strong>Databases & Storage</strong></td>
-      <td style="padding: 12px 14px; border-bottom: 1px solid #21262d;"><code>PostgreSQL</code> <code>MongoDB</code> <code>SQL Server</code> <code>MySQL</code></td>
-    </tr>
-    <tr>
-      <td style="padding: 12px 14px; border-bottom-left-radius: 10px; border-right: 1px solid #30363d;"><strong>DevOps & Tools</strong></td>
-      <td style="padding: 12px 14px; border-bottom-right-radius: 10px;"><code>Docker</code> <code>Git</code> <code>Linux / Bash</code> <code>Postman</code></td>
-    </tr>
-  </tbody>
-</table>
-
-</div>
+* **Full Stack Software:** `Node.js`  `Angular`  `TypeScript`  `RESTful APIs`  `HTML5/SCSS`
+* **Data Engineering & Big Data:** `Python`  `Apache Spark`  `Hadoop (HDFS)`  `Apache NiFi`  `Pandas`  `ETL Pipelines`
+* **AI & Data Science:** `TensorFlow`  `Deep Learning (LSTM)`  `Scikit-learn`  `Web Scraping`  `Jupyter`
+* **Databases & Storage:** `PostgreSQL`  `MongoDB`  `SQL Server`  `MySQL`
+* **DevOps & Tools:** `Docker`  `Git`  `Linux / Bash`  `Postman`
 
 <br />
-
 
 <!-- ======================================================= -->
 <!-- SECCIÓN 4:  GITHUB STATS                                -->
 <!-- ======================================================= -->
 
-
-<div align="center">
-
-### GitHub Activity 
+### GitHub Activity
 
 <br />
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=adri-castillo&layout=compact&theme=tokyonight&hide_border=true&hide=html,css" style="max-width: 100%;" width="45%" alt="Top Languages" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=adri-castillo&layout=compact&theme=tokyonight&hide_border=true&hide=html,css" width="60%" alt="Top Languages" />
 </p>
-
-</div>
