@@ -46,7 +46,7 @@
 
 
 <p align="center">
- <img src="terminal.svg" alt="Terminal" width="90%"> 
+ <img src="assets/terminal.svg" alt="Terminal" width="89%"> 
 </p>
 
 
