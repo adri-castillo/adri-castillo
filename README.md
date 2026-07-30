@@ -46,8 +46,19 @@
 
 
 <p align="center">
+  <!-- <img src="terminal.svg" alt="Terminal" width="73%"> -->
+
+<picture>
+  <!-- En pantallas pequeñas (móviles) carga el SVG al 100% -->
+  <source media="(max-width: 767px)" srcset="terminal.svg">
+  
+  <!-- En escritorio limita el contenedor al 73% -->
   <img src="terminal.svg" alt="Terminal" width="73%">
+</picture>
+  
 </p>
+
+
 
 <br />
 
