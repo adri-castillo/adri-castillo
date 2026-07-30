@@ -33,9 +33,6 @@
   </p>
   <br />
 
-  <!-- Animación SVG de consola escribiendo comandos -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&pause=1500&emptyDuration=100&color=7DF527&center=true&vCenter=true&width=600&lines=console.log(%22Hello%2C+World!%22)%3B;echo+%22Software+%26+Data+Engineer%22;git+commit+-m+%22feat%3A+ship+to+prod%22;ng+build+--configuration+production;python3+-m+pytest+tests%2F;spark-submit+--master+yarn+etl.py;docker-compose+up+-d+airflow" alt="Typing SVG" />
-
   <br />
 
 </div>
@@ -87,12 +84,16 @@
 }
 ```
 
-<!-- Alternativa con espacios normales dentro de HTML directo -->
-<p style="margin: 8px 0 0 0; font-family: monospace; font-size: 13px;">
-  <span style="color: #79c0ff;">dev@macbook-pro</span> <span style="color: #d2a8ff;">~ %</span> &nbsp;&nbsp;&nbsp;<span style="color: #e6edf3;">▍</span>
-</p> 
-    </td>
-      </tr>
+<!-- Animación SVG de consola escribiendo comandos -->
+
+<p style="margin: 8px 0 0 0; font-family: monospace; font-size: 13px; line-height: 1.5;">
+  <span style="color: #79c0ff;">dev@macbook-pro</span> 
+  <span style="color: #d2a8ff;">~ %</span>&nbsp&nbsp;
+  <img src="https://readme-typing-svg.demolab.com?font=Roboto+Mono&weight=310&size=15&pause=1500&emptyDuration=100&color=FFFFFF&center=false&vCenter=true&width=550&height=25&lines=echo+%22Hello%2C+World!%22;git+commit+-m+%22feat%3A+ship+to+prod%22;ng+build+--configuration+production;python3+-m+pytest+tests%2F;spark-submit+--master+yarn+etl.py;docker-compose+up+-d+airflow" alt="Typing SVG" align="middle" height="25" />
+</p>
+
+  </td>
+  </tr>
 </table>
 </div>
 
