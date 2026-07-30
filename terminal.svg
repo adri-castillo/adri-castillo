@@ -1,0 +1,70 @@
+<svg fill="none" width="100%" viewBox="0 0 920 630" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 500; fill: #8b949e; }
+    .term-text { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace; font-size: 18px; }
+    .cyan { fill: #79c0ff; }
+    .purple { fill: #d2a8ff; }
+    .white { fill: #c9d1d9; }
+    .key { fill: #7ee787; }
+    .string { fill: #a5d6ff; }
+  </style>
+
+  <!-- Fondo de la ventana -->
+  <rect width="920" height="630" rx="10" fill="#0d1117" />
+  
+  <!-- Barra de título macOS -->
+  <rect width="920" height="48" rx="10" fill="#161b22" />
+  <rect y="20" width="920" height="28" fill="#161b22" />
+  <line x1="0" y1="48" x2="920" y2="48" stroke="#30363d" stroke-width="1" />
+
+  <!-- Botones de ventana -->
+  <circle cx="22" cy="24" r="7.5" fill="#FF5F56" />
+  <circle cx="45" cy="24" r="7.5" fill="#FFBD2E" />
+  <circle cx="68" cy="24" r="7.5" fill="#27C93F" />
+
+  <!-- Icono de carpeta azul estilo macOS -->
+  <g transform="translate(88, 15)">
+    <path d="M2 3A2 2 0 0 1 4 1h4.2a2 2 0 0 1 1.4.6l1.4 1.4A1 1 0 0 0 11.7 3.5H18a2 2 0 0 1 2 2V15a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V3z" fill="#1b73ba"/>
+    <path d="M2 6.5A1.5 1.5 0 0 1 3.5 5h15A1.5 1.5 0 0 1 20 6.5V15a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6.5z" fill="#479fe6"/>
+    <path d="M3.5 5h15A1.5 1.5 0 0 1 20 6.5V8H2V6.5A1.5 1.5 0 0 1 3.5 5z" fill="#5cb3f6" opacity="0.6"/>
+  </g>
+
+  <!-- Título de ventana -->
+  <text x="116" y="30" class="header-title">ac — zsh — 80×24</text>
+
+  <!-- Prompt 1: cat profile.json -->
+  <text x="22" y="94" class="term-text">
+    <tspan class="cyan">dev@macbook-pro</tspan>
+    <tspan class="purple"> ~ %</tspan>
+    <tspan class="white"> cat profile.json</tspan>
+  </text>
+
+  <!-- JSON con resaltado de sintaxis (18px) -->
+  <text x="22" y="124" class="term-text white">{</text>
+  <text x="42" y="154" class="term-text"><tspan class="key">"developer"</tspan><tspan class="white">: </tspan><tspan class="string">"Adriana Castillo"</tspan><tspan class="white">,</tspan></text>
+  <text x="42" y="184" class="term-text"><tspan class="key">"bio"</tspan><tspan class="white">: </tspan><tspan class="string">"Building robust web platforms &amp; distributed data pipelines"</tspan><tspan class="white">,</tspan></text>
+  <text x="42" y="214" class="term-text"><tspan class="key">"current_focus"</tspan><tspan class="white">: [</tspan></text>
+  <text x="62" y="244" class="term-text"><tspan class="string">"Scalable ETL Architectures"</tspan><tspan class="white">,</tspan></text>
+  <text x="62" y="274" class="term-text"><tspan class="string">"Real-time Data Processing"</tspan><tspan class="white">,</tspan></text>
+  <text x="62" y="304" class="term-text"><tspan class="string">"Integrated Full Stack Solutions"</tspan></text>
+  <text x="42" y="334" class="term-text white">],</text>
+  <text x="42" y="364" class="term-text"><tspan class="key">"engineering_principles"</tspan><tspan class="white">: [</tspan></text>
+  <text x="62" y="394" class="term-text"><tspan class="string">"Clean Code &amp; Maintainability"</tspan><tspan class="white">,</tspan></text>
+  <text x="62" y="424" class="term-text"><tspan class="string">"Data Integrity &amp; Efficiency"</tspan><tspan class="white">,</tspan></text>
+  <text x="62" y="454" class="term-text"><tspan class="string">"Performance Optimization"</tspan></text>
+  <text x="42" y="484" class="term-text white">],</text>
+  <text x="42" y="514" class="term-text"><tspan class="key">"spoken_languages"</tspan><tspan class="white">: [</tspan><tspan class="string">"Spanish (Native)"</tspan><tspan class="white">, </tspan><tspan class="string">"English (Technical)"</tspan><tspan class="white">]</tspan></text>
+  <text x="22" y="544" class="term-text white">}</text>
+
+  <!-- Prompt 2 (Línea estática inferior en y=584) -->
+  <text x="22" y="584" class="term-text">
+    <tspan class="cyan">dev@macbook-pro</tspan>
+    <tspan class="purple"> ~ %</tspan>
+  </text>
+
+  <!-- Animación alineada en x=244 -->
+  <image x="244" y="562" width="620" height="34" href="https://readme-typing-svg.demolab.com?font=Roboto+Mono&amp;weight=400&amp;size=18&amp;pause=1500&amp;emptyDuration=100&amp;color=FFFFFF&amp;center=false&amp;vCenter=true&amp;width=620&amp;height=34&amp;lines=echo+%22Hello%2C+World!%22;git+commit+-m+%22feat%3A+ship+to+prod%22;ng+build+--configuration+production;python3+-m+pytest+tests%2F;spark-submit+--master+yarn+etl.py;docker-compose+up+-d+airflow" />
+
+  <!-- Borde exterior de la ventana -->
+  <rect width="920" height="630" rx="10" fill="none" stroke="#30363d" stroke-width="1" />
+</svg>
