@@ -45,57 +45,9 @@
 <!-- ======================================================= -->
 
 
-<div align="center">
-<table width="90%" style="border-collapse: separate; border-spacing: 0; border: 1px solid #30363d; border-radius: 10px; background-color: #0d1117;">  
-  <!-- Barra de título estilo ventana macOS -->
-  <tr style="background-color: #161b22; border-bottom: 1px solid #30363d;">
-    <td style="padding: 10px 14px; border-bottom: 1px solid #30363d; border-top-left-radius: 10px; border-top-right-radius: 10px;">
-      <span style="color: #FF5F56; font-size: 14px;">🔴</span>
-      <span style="color: #FFBD2E; font-size: 14px;">⚪</span>
-      <span style="color: #27C93F; font-size: 14px;">🟢</span>
-      &nbsp;&nbsp;
-      <span style="color: #8b949e; font-family: sans-serif; font-size: 17px; font-weight: 500;">
-        ac — zsh — 80×24
-      </span>
-    </td>
-  </tr>
-
-  <!-- Interior de la terminal: prompt de zsh + JSON sintáctico -->
-  <tr>
-    <td style="padding: 16px 18px; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;" align="left">
-
-<p style="margin: 0 0 8px 0; font-family: monospace; font-size: 13px; color: #79c0ff;">dev@macbook-pro <span style="color: #d2a8ff;">~ %</span> <span style="color: #c9d1d9;"> &nbsp cat profile.json</span></p>
-
-```json
-{
-  "developer": "Adriana Castillo",
-  "bio": "Building robust web platforms & distributed data pipelines",
-  "current_focus": [
-    "Scalable ETL Architectures",
-    "Real-time Data Processing",
-    "Integrated Full Stack Solutions"
-  ],
-  "engineering_principles": [
-    "Clean Code & Maintainability",
-    "Data Integrity & Efficiency",
-    "Performance Optimization"
-  ],
-  "spoken_languages": ["Spanish (Native)", "English (Technical)"]
-}
-```
-
-<!-- Animación SVG de consola escribiendo comandos -->
-
-<p style="margin: 8px 0 0 0; font-family: monospace; font-size: 13px; line-height: 1.5;">
-  <span style="color: #79c0ff;">dev@macbook-pro</span> 
-  <span style="color: #d2a8ff;">~ %</span>&nbsp&nbsp;
-  <img src="https://readme-typing-svg.demolab.com?font=Roboto+Mono&weight=310&size=15&pause=1500&emptyDuration=100&color=FFFFFF&center=false&vCenter=true&width=550&height=25&lines=echo+%22Hello%2C+World!%22;git+commit+-m+%22feat%3A+ship+to+prod%22;ng+build+--configuration+production;python3+-m+pytest+tests%2F;spark-submit+--master+yarn+etl.py;docker-compose+up+-d+airflow" alt="Typing SVG" align="middle" height="25" />
+<p align="center">
+  <img src="terminal.svg" alt="Terminal" width="73%">
 </p>
-
-  </td>
-  </tr>
-</table>
-</div>
 
 <br />
 
@@ -158,7 +110,7 @@
 <br />
 
 <p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=adri-castillo&layout=compact&theme=tokyonight&hide_border=true&hide=html,css" style="max-width: 100%;" width="75%" alt="Top Languages" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=adri-castillo&layout=compact&theme=tokyonight&hide_border=true&hide=html,css" style="max-width: 100%;" width="74%" alt="Top Languages" />
 </p>
 
 </div>
