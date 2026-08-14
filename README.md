@@ -65,15 +65,3 @@
   [✔] DevOps        -> Docker  |  Git  |  Linux / Bash  |  Postman
 [READY] System operational.
 ```
-<br />
-<!-- ======================================================= -->
-<!-- SECCIÓN 4:  GITHUB STATS                                -->
-<!-- ======================================================= -->
-
-### GitHub Activity
-
-<br />
-
-<p align="center">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=adri-castillo&layout=compact&theme=tokyonight&hide_border=true&hide=html,css" width="60%" alt="Top Languages" />
-</p>
